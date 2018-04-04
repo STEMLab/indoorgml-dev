@@ -3,22 +3,29 @@
     <h1><a href="/" class="site-title" >{{ site.title }}</a></h1>
     <nav id="nav">
         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">News</a></li>
-            <li><a href="/">Updates</a></li>
-            <li><a href="/">Resources</a></li>
-            <li><a href="/">Links</a></li>
-            <li><a href="/">Contact</a></li>
+            <li><a href="{{ '' | prepend: site.baseurl }}">Home</a></li>
+            <li><a href="{{ 'news' | prepend: site.baseurl }}">News</a></li>
+            <li><a href="{{ 'updates' | prepend: site.baseurl }}">Updates</a></li>
+            <li><a href="{{ 'resources' | prepend: site.baseurl }}">Resources</a></li>
+            <li><a href="{{ 'links' | prepend: site.baseurl }}">Links</a></li>
+            <li><a href="{{ 'contact' | prepend: site.baseurl }}">Contact</a></li>
+
+            <!--
             <li><a href="/left-sidebar.html">Left Sidebar</a></li>
             <li><a href="/right-sidebar.html">Right Sidebar</a></li>
             <li><a href="/no-sidebar.html">No Sidebar</a></li>
             <li><a href="/blog.html">Blog</a></li>
+            -->
+
+            <!--
+
             {% for page in site.pages %}
                   {% if page.title %}
                     <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
                   {% endif %}
             {% endfor %}
             <li><a href="#" class="button special">Sign Up</a></li>
+            -->
         </ul>
     </nav>
 </header>
