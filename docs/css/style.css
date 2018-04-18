@@ -32,7 +32,7 @@
 		}
 
 	strong, b, .cc-active {
-		color: #666f77;
+		color: #000000;
 		font-weight: 500;
 	}
 
@@ -45,7 +45,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #111111;
+		color: #000000;
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -497,10 +497,10 @@
 			width: 100%;
 		}
 
-			.image.fit img {
-				display: block;
-				width: 50%;
-			}
+		.image.fit img {
+			display: block;
+			width: 100%;
+		}
 
 /* List */
 
@@ -859,12 +859,12 @@
 
 		.wrapper.style1 {
 			background: #fff;
-			color: #555f66;
+			color: #000000;
 		}
 
 		.wrapper.style2 {
 			background: #192024;
-			color: #c5c7c8;
+			color: #000000;
 		}
 
 			.wrapper.style2 h2, .wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6 {
@@ -994,17 +994,28 @@
 
 /* Banner */
 
-	#banner {
-		background-color: #666666;
-		background-image: url("../images/banner.jpg");
-		background-size: cover;
-		background-position: center center;
-		background-repeat: no-repeat;
-		color: #d8d8d8;
-		padding: 14em 0;
-		text-align: center;
-		position: relative;
-	}
+		#banner {
+			color: #d8d8d8;
+			padding: 14em 0;
+			text-align: center;
+			position: relative;
+		}
+
+		#banner .background {
+			background-image: url("../images/banner.jpg");
+			background-size: cover;
+			background-position: center center;
+			background-repeat: no-repeat;
+			position: absolute;
+			top: 0;
+		  left: 0;
+			width: 100%;
+			height: 100%;
+			content: "";
+	    z-index: -1;
+			opacity: .5;
+	  	filter: blur(.5px);
+		}
 
 		#banner:before {
 			content: '';
@@ -1021,25 +1032,26 @@
 			z-index: 1;
 		}
 
-			#banner .inner :last-child {
-				margin-bottom: 0;
-			}
+		#banner .inner :last-child {
+			margin-bottom: 0;
+		}
 
 		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-			color: #ffffff;
+			color: #111111;
+			font-weight: bold;
 		}
 
 		#banner .button.alt {
 			box-shadow: inset 0 0 0 1px rgba(144, 144, 144, 0.75);
-			color: #ffffff !important;
+			color: #111111 !important;
 		}
 
 			#banner .button.alt:hover {
-				background-color: rgba(144, 144, 144, 0.275);
+				background-color: rgba(144, 144, 144, 0.5);
 			}
 
 			#banner .button.alt:active {
-				background-color: rgba(144, 144, 144, 0.4);
+				background-color: rgba(144, 144, 144, 0.7);
 			}
 
 			#banner .button.alt.icon:before {
@@ -1048,6 +1060,7 @@
 
 		#banner .button {
 			min-width: 12em;
+			background-color: rgba(255, 255, 255, 0.5);
 		}
 
 		#banner h2 {
@@ -1060,10 +1073,12 @@
 		#banner p {
 			font-size: 1.5em;
 			margin-bottom: 2em;
+			color: #111111;
+			text-shadow: 0px 1px #555555;
 		}
 
 			#banner p a {
-				color: #ffffff;
+				color: #111111;
 				text-decoration: none;
 			}
 
