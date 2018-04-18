@@ -19,8 +19,8 @@ IndoorGML is composed of two modules; core module and extension module for indoo
 
 ## Data
 
-- 
--
+- [Apr. 18, 2018] [IndoorGML data (core module)](https://github.com/STEMLab/indoorgml-dev/raw/master/sample-data/SAMPLE_DATA_LWM_3D_1.0.3.gml) for Lotte World Mall (IndoorGML 1.0.3), 45.1 MB
+- [Apr. 18, 2018] [IndoorGML data (core module)](https://github.com/STEMLab/indoorgml-dev/raw/master/sample-data/FJK-Haus_IndoorGML_withEXR-corrected_1_0_3.gml) for Simple House (IndoorGML 1.0.3), 337 KB
 
 ## Tools
 - [Apr. 10, 2018] [InViewer](https://github.com/STEMLab/InViewer) - A Three.js-based viewer for visualizing OGC IndoorGML data : Open Source (MIT license)
