@@ -1,6 +1,7 @@
 ---
 layout: page
 title: News
+permalink: /news/
 ---
 
 - Mar. 9, 2018 - IndoorGML 1.0.3 is published at [OGC portal](http://www.opengeospatial.org/standards/indoorgml) and its schema is available at [OGC web page](http://schemas.opengis.net/indoorGML/1.0)

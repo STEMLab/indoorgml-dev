@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Updates
+permalink: /updates/
 ---
 
 - Publication of IndoorGML 1.0.2 on Sept. 21, 2016 - [OGC IndoorGML Portal](http://www.opengeospatial.org/standards/indoorgml)

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact
+permalink: /contact/
 subtitle: If you have any question about IndoorGML, please feel free to contact with one of the following members;
 ---
 
