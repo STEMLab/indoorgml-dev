@@ -1059,7 +1059,7 @@
 			}
 
 		#banner .button {
-			min-width: 12em;
+			min-width: 9em;
 			background-color: rgba(255, 255, 255, 0.5);
 		}
 
@@ -1081,6 +1081,7 @@
 				color: #111111;
 				text-decoration: none;
 			}
+
 /* Footer */
 
 	#footer {

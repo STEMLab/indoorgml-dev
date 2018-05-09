@@ -58,9 +58,8 @@
 		}
 
 		#banner p {
-			font-size: 1.25em;
+			font-size: 1.0em;
 		}
-
 /* Main */
 
 	#main {
@@ -83,3 +82,9 @@
 				padding-left: 0;
 				display: block;
 			}
+
+.logo-img {
+	height: 150px;
+	margin: 5px;
+	float: none !important;
+}

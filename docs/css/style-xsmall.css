@@ -62,3 +62,11 @@
 	#banner {
 		padding: 5em 2em 4em 2em;
 	}
+
+	#banner p {
+		font-size: 1.0em;
+	}
+
+	#banner ul li {
+		font-size: 80%;
+	}
