@@ -31,7 +31,19 @@
 /* Banner */
 
 	#banner {
-		padding: 6em 1em;
+		padding: 2em 1em;
+	}
+
+	#banner h2 {
+		font-size: 2.0em;
+	}
+
+	#banner p {
+		font-size: 1.2em;
+	}
+
+	#banner ul li {
+		font-size: 75%;
 	}
 
 		#banner .button {
@@ -112,3 +124,7 @@
 			#navPanel nav .button {
 				width: 100%;
 			}
+
+.logo-img {
+	height: 90px;
+}

@@ -117,6 +117,5 @@
 
 		// jQuery ready stuff.
 
-	});
 
 })(jQuery);

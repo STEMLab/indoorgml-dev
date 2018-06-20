@@ -52,7 +52,7 @@
 
 			// Small.
 				small: {
-					range: '-736',
+					range: '-820',
 					href: '{{ site.baseurl }}/css/style-small.css',
 					containers: '90%',
 					grid: {
@@ -64,7 +64,7 @@
 
 			// XSmall.
 				xsmall: {
-					range: '-480',
+					range: '-560',
 					href: '{{ site.baseurl }}/css/style-xsmall.css',
 					grid: {
 						collapse: 2
@@ -111,8 +111,22 @@
 	$(function() {
 
 		// jQuery ready stuff.
-
+		// ===== Scroll to Top ====
+		// refered at https://codepen.io/rdallaire/pen/apoyx
+		$(window).scroll(function() {
+				if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+						$('#return-to-top').fadeIn(200);    // Fade in the arrow
+				} else {
+						$('#return-to-top').fadeOut(200);   // Else fade out the arrow
+				}
+		});
+		$('#return-to-top').click(function() {      // When arrow is clicked
+				$('body,html').animate({
+						scrollTop : 0                       // Scroll to top of body
+				}, 500);
+		});
 	});
+
 
 })(jQuery);
 </script>
