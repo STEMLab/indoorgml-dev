@@ -3,7 +3,6 @@ title: IndoorGML OGC
 email: lik@pnu.edu
 description: > # this means to ignore newlines until "baseurl:"
   IndoorGML - OGC Standard for Indoor Spatial Information
-baseurl: "/indoorgml-dev/" # the subpath of your site, e.g. /blog/
-
+baseurl: "" # the subpath of your site, e.g. /blog/
 # Build settings
 markdown: kramdown
